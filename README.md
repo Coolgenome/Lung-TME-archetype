@@ -1,7 +1,7 @@
 
 Spatial archetyping maps immune ecosystem transitions from lung precursor lesions to adenocarcinoma
 
-<img width="1203" height="2149" alt="Cover" src="https://github.com/user-attachments/assets/3954db16-b1c1-4691-be33-85ff16cd10ab" />
+<img width="240" height="430" alt="Cover" src="https://github.com/user-attachments/assets/3954db16-b1c1-4691-be33-85ff16cd10ab" />
 
 The study included the following analysis:
 
