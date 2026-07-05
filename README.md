@@ -7,3 +7,6 @@ The study included the following analysis:
 5. Molecular profiles and immune-related cell-cell communications across different lesion stages and IMPACT archetypes.
 6. Tumor genomic alterations and their associations with spatial TME architectures.
 7. AI-based spatial decoding of lung TME architectures in histology images.
+
+
+For any questions, please leave your comment in GitHub or contact Yang Liu (yliu47@mdanderson.org). We will help address the issues as soon as possible.
