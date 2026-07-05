@@ -9,4 +9,4 @@ The study included the following analysis:
 7. AI-based spatial decoding of lung TME architectures in histology images.
 
 
-For any questions, please leave your comment in GitHub or contact Yang Liu (yliu47@mdanderson.org). We will help address the issues as soon as possible.
+For any questions, please leave your comment in GitHub or contact Yibo Dai (ydai6@mdanderson.org). We will help address the issues as soon as possible.
