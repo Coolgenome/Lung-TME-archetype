@@ -1,9 +1,9 @@
 
-Spatial archetyping maps immune ecosystem transitions from lung precursor lesions to adenocarcinoma
+# Spatial archetyping maps immune ecosystem transitions from lung precursor lesions to adenocarcinoma
 
 <img width="360" height="660" alt="Cover" src="https://github.com/user-attachments/assets/3954db16-b1c1-4691-be33-85ff16cd10ab" />
 
-The study included the following analysis:
+## The study included the following analysis:
 
 1. Spatial TME cellular landscape across different disease stages during early LUAD development.
 2. Spatial immune archetypes (IMPACT) presenting in LUAD and its precursor lesions.
