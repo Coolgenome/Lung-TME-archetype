@@ -23,7 +23,7 @@
 We also provide the LungTME-Net framework, which enables high-resolution prediction of lung lesion spatial architectures using H&E images.
 
 <p align="center">
-   <img width="612" height="306" alt="LungTME-Net" src="https://github.com/user-attachments/assets/c6395040-3622-4a42-890b-df589a8fa4e1" />
+   <img width="390" height="190" alt="LungTME-Net" src="https://github.com/user-attachments/assets/c6395040-3622-4a42-890b-df589a8fa4e1" />
 </p>
 
 ## Notes
