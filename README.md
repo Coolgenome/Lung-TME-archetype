@@ -5,7 +5,7 @@
    <img width="360" height="660" alt="Cover" src="https://github.com/user-attachments/assets/3954db16-b1c1-4691-be33-85ff16cd10ab" />
 </p>
 
-## The study included the following analysis
+## Spatial analysis in the study
 
 1. Spatial TME cellular landscape across different disease stages during early LUAD development.
 2. Spatial immune archetypes (IMPACT) presenting in LUAD and its precursor lesions.
@@ -17,6 +17,13 @@
 
 <p align="center">
    <img width="600" height="460" alt="Study design" src="https://github.com/user-attachments/assets/83a07397-98b3-46af-b3f7-74c1a27a201d" />
+</p>
+
+## LungTME-Net
+We also provide the LungTME-Net framework, which enables high-resolution prediction of lung lesion spatial architectures using H&E images.
+
+<p align="center">
+   <img width="1623" height="819" alt="LungTME-Net" src="https://github.com/user-attachments/assets/5e8ad7d0-4264-48c8-8ec3-0d267de356ed" />
 </p>
 
 ## Notes
