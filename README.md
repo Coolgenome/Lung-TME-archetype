@@ -28,10 +28,10 @@ We also provide the LungTME-Net framework, which enables high-resolution predict
 
 This pipeline allows for identification of the tumor region, as well as detailed cell lineages (including tumor, non-tumor epithelium, and TME components). 
 We provided three high-resolution H&E image patches for demo: 
-   ADC1 is a tumor-region-dominant patch, with abundant tumor cells, as well as lymphocytes and macrophages; 
-   ADC2 is a tumor-region-dominant patch, with tumors along with fibrous tissue and vessels; 
-   ADC3 is the tumor-normal interface. 
-The three demo patches represented different lung tissue contexts and included multiple distinct tissue structures, to demonstrate the performance of the model.
+  - ADC1 is a tumor-region-dominant patch, with abundant tumor cells, as well as lymphocytes and macrophages; 
+  - ADC2 is a tumor-region-dominant patch, with tumors along with fibrous tissue and vessels; 
+  - ADC3 is the tumor-normal interface. 
+The three demo patches included multiple distinct tissue structures and demonstrated the performance of the model in different lung tissue contexts. The spatial prediction results can be leveraged for various downstream tasks based on user's need, including spatial pattern, niche, and archetype analyses.
 
 ## Notes
 For any questions, please leave your comment in GitHub or contact Yibo Dai (ydai6@mdanderson.org). We will help address the issues as soon as possible.
