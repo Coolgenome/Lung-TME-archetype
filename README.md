@@ -32,7 +32,7 @@ We provided three high-resolution H&E image patches for demo:
   - ADC2 is a tumor-region-dominant patch, with tumors along with fibrous tissue and vessels; 
   - ADC3 is the tumor-normal interface.
     
-The three demo patches include multiple distinct tissue structures and demonstrate the performance of the model in different lung tissue contexts. The spatial prediction results can be leveraged for various downstream tasks based on the users' needs, such as spatial pattern, niche, and archetype analyses and associative analyses using clincial metadata.
+The three demo patches include multiple distinct tissue structures and demonstrate the performance of the model in different lung tissue contexts. The users can also run the pipeline using their own high-resolution lung histopathology images. The spatial prediction results can be leveraged for various downstream tasks based on the users' needs, such as spatial pattern, niche, and archetype analyses and correlative analyses using clincial metadata.
 
 ## Notes
 For any questions, please leave your comment in GitHub or contact Yibo Dai (ydai6@mdanderson.org). We will help address the issues as soon as possible.
