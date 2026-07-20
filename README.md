@@ -30,7 +30,8 @@ This pipeline allows for identification of the tumor region, as well as detailed
 We provided three high-resolution H&E image patches for demo: 
   - ADC1 is a tumor-region-dominant patch, with abundant tumor cells, as well as lymphocytes and macrophages; 
   - ADC2 is a tumor-region-dominant patch, with tumors along with fibrous tissue and vessels; 
-  - ADC3 is the tumor-normal interface. 
+  - ADC3 is the tumor-normal interface.
+    
 The three demo patches included multiple distinct tissue structures and demonstrated the performance of the model in different lung tissue contexts. The spatial prediction results can be leveraged for various downstream tasks based on user's need, including spatial pattern, niche, and archetype analyses.
 
 ## Notes
