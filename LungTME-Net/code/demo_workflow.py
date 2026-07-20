@@ -1,9 +1,10 @@
 """
 Run the demo pipeline for high-resolution H&E images.
 
-Expected inputs by default:
+Expected inputs for demo:
   ../HE_demo/ADC1.png
   ../HE_demo/ADC2.png
+  ../HE_demo/ADC3.png
 """
 
 from __future__ import annotations
