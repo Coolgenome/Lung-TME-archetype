@@ -28,8 +28,8 @@ We also provide the LungTME-Net framework, which enables high-resolution predict
 
 This pipeline allows for identification of the tumor region, as well as detailed cell lineages (including tumor, non-tumor epithelium, and TME components). 
 We provided three high-resolution H&E image patches for demo: 
-  - ADC1 is a tumor-region-dominant patch, with abundant tumor cells, as well as lymphocytes and macrophages; 
-  - ADC2 is a tumor-region-dominant patch, with tumors along with fibrous tissue and vessels; 
+  - ADC1 is a tumor-region-dominant patch with rich TME components, with abundant tumor cells, as well as lymphocytes, macrophages, and fibrous tissue; 
+  - ADC2 is a tumor-region-dominant patch, with tumors along with vessels; 
   - ADC3 is the tumor-normal interface.
     
 The three demo patches include multiple distinct tissue structures and demonstrate the performance of the model in different lung tissue contexts. The users can also run the pipeline using their own high-resolution lung H&E images. The spatial prediction results can be leveraged for various downstream tasks based on the users' needs, such as spatial pattern, niche, and archetype analyses and correlative analyses using clinical metadata.
@@ -37,11 +37,12 @@ The three demo patches include multiple distinct tissue structures and demonstra
 To run the pipeline:
 ```bash
 cd ./LungTME-Net
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+python3.12 -m venv .venv # create an environment for running the model, the model has been tested in python 3.12
+source .venv/bin/activate # activate the environment
+pip install -r requirements.txt # install essential packages
+
 cd ./code
-python3 demo_workflow.py
+python3 demo_workflow.py # run the demo pipeline will give output for the three examples in the /results/ folder
 ```
 
 ## Notes
