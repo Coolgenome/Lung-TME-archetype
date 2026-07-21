@@ -34,5 +34,15 @@ We provided three high-resolution H&E image patches for demo:
     
 The three demo patches include multiple distinct tissue structures and demonstrate the performance of the model in different lung tissue contexts. The users can also run the pipeline using their own high-resolution lung H&E images. The spatial prediction results can be leveraged for various downstream tasks based on the users' needs, such as spatial pattern, niche, and archetype analyses and correlative analyses using clinical metadata.
 
+To run the pipeline:
+```bash
+cd ./LungTME-Net
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cd ./code
+python3 demo_workflow.py
+```
+
 ## Notes
 For any questions, please leave your comment in GitHub or contact Yibo Dai (ydai6@mdanderson.org). We will help address the issues as soon as possible.
