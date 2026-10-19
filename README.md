@@ -19,30 +19,25 @@
    <img width="600" height="460" alt="Study design" src="https://github.com/user-attachments/assets/83a07397-98b3-46af-b3f7-74c1a27a201d" />
 </p>
 
-## LungTME-Net
-We also provide the LungTME-Net framework, which enables high-resolution prediction of lung lesion spatial architectures using H&E images.
+## histo-IMPACT
+We also provide the histo-IMPACT framework, which enables high-resolution prediction of lung lesion spatial architectures using H&E images.
 
-<p align="center">
-   <img width="600" height="300" alt="LungTME-Net" src="https://github.com/user-attachments/assets/8b2a2970-3e47-4cb0-9ee0-655f28aa8187" />
-</p>
+<img width="1625" height="1455" alt="Artboard 1" src="https://github.com/user-attachments/assets/240bc805-8e56-45d6-b347-dd22d1273f37" />
+
 
 This pipeline allows for identification of the tumor region, as well as detailed cell lineages (including tumor, non-tumor epithelium, and TME components). 
-We provided three high-resolution H&E image patches for demo: 
-  - ADC1 is a tumor-region-dominant patch with rich TME components, with abundant tumor cells, as well as lymphocytes, macrophages, and fibrous tissue; 
-  - ADC2 is a tumor-region-dominant patch, with tumors along with lymphocytes, fibrous tissue and vessels; 
-  - ADC3 is the tumor-normal interface.
+We provided high-resolution H&E image for demo, which can be downloaded here: 
     
-The three demo patches include multiple distinct tissue structures and demonstrate the performance of the model in different lung tissue contexts. The users can also run the pipeline using their own high-resolution lung H&E images. The spatial prediction results can be leveraged for various downstream tasks based on the users' needs, such as spatial pattern, niche, and archetype analyses and correlative analyses using clinical metadata.
 
 To run the pipeline:
 ```bash
-cd ./LungTME-Net
-python3.12 -m venv .venv # create an environment for running the model, the model has been tested in python 3.12
-source .venv/bin/activate # activate the environment
-pip install -r requirements.txt # install essential packages
+cd ./histoIMPACT
+bash setup_env.sh # this creates a conda environment named histoimpact
+conda activate histoimpact
 
-cd ./code
-python3 demo_workflow.py # run the demo pipeline will give output for the three examples in the /results/ folder
+cd code
+python run_histoimpact.py --image /path/to/image.tif --mpp 0.25 # set the image path and mpp here
+
 ```
 
 ## Notes
