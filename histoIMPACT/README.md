@@ -71,7 +71,7 @@ PyTorch and timm are needed for model 1 (UNI features and token classification).
 ```bash
 cd code
 # images at 40x (0.25 um/px)
-python run_histoimpact.py --image ../HE_demo/ADC1.png --image ../HE_demo/ADC2.png --mpp 0.25
+python run_histoimpact.py --image /path/to/image.tif --mpp 0.25
 # images at another resolution are resampled to 0.25 um/px first
 python run_histoimpact.py --image slide_20x.tif --mpp 0.5
 # a cohort: manifest with sample_id, image, mpp
