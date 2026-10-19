@@ -17,7 +17,7 @@
 8. Analysis of TCGA cohort by spatial decoding of histology images, survival analysis.
 
 <p align="center">
-   <img width="600" height="460" alt="Study design" src="https://github.com/user-attachments/assets/83a07397-98b3-46af-b3f7-74c1a27a201d" />
+   <img width="600" height="460" alt="Study design" src="https://github.com/user-attachments/assets/95ce25b6-f891-42da-a657-cfdcf12264f1" />
 </p>
 
 ## histo-IMPACT
