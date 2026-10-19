@@ -28,8 +28,8 @@ We also provide the histo-IMPACT framework, which enables high-resolution predic
 </p>
 
 This pipeline allows for identification of the tumor region, as well as detailed cell lineages (including tumor, non-tumor epithelium, and TME components). 
-We provided high-resolution H&E image for demo, which can be downloaded here: 
-    
+We provided high-resolution H&E image for demo, which can be downloaded here: https://doi.org/10.5281/zenodo.23483997
+The results from demo run are included in results_histoimpact/
 
 To run the pipeline:
 ```bash
