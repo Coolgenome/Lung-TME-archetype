@@ -22,7 +22,7 @@
 ## histo-IMPACT
 We also provide the histo-IMPACT framework, which enables high-resolution prediction of lung lesion spatial architectures using H&E images.
 
-<img width="1625" height="1455" alt="Artboard 1" src="https://github.com/user-attachments/assets/240bc805-8e56-45d6-b347-dd22d1273f37" />
+<img width="812" height="725" alt="Artboard 1" src="https://github.com/user-attachments/assets/240bc805-8e56-45d6-b347-dd22d1273f37" />
 
 
 This pipeline allows for identification of the tumor region, as well as detailed cell lineages (including tumor, non-tumor epithelium, and TME components). 
@@ -35,7 +35,7 @@ cd ./histoIMPACT
 bash setup_env.sh # this creates a conda environment named histoimpact
 conda activate histoimpact
 
-cd code
+cd ./code
 python run_histoimpact.py --image /path/to/image.tif --mpp 0.25 # set the image path and mpp here
 
 ```
