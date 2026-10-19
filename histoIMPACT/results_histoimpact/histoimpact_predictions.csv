@@ -1,0 +1,2 @@
+sample_id,IMPACT_3class,til_class,mac_class,fib_class,til_margin,tumor_layer_frac,tissue_mm2,n_windows,um_per_token,n_missing_features,p_til_class_I,p_til_class_II,p_til_class_III,p_til_class_IV,p_mac_class_I,p_mac_class_II,p_fib_class_I,p_fib_class_II
+P11_ADC,IMPACT1a/2,III,I,I,0.71,0.8075,82.0,4,4.0,0,0.1328,0.0209,0.8427,0.0036,0.9112,0.0888,0.5804,0.4196

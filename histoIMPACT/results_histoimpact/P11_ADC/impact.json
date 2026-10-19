@@ -1,0 +1,19 @@
+{
+ "sample_id": "P11_ADC",
+ "um_per_token": 4.0,
+ "IMPACT_3class": "IMPACT1a/2",
+ "til_class": "III",
+ "mac_class": "I",
+ "fib_class": "I",
+ "til_margin": 0.7099693302729466,
+ "tumor_layer_frac": 0.8074814826348173,
+ "n_missing_features": 0,
+ "p_til_class_I": 0.13276896681713077,
+ "p_til_class_II": 0.020875528095304702,
+ "p_til_class_III": 0.8427382970900774,
+ "p_til_class_IV": 0.003617207997487125,
+ "p_mac_class_I": 0.9112377765300799,
+ "p_mac_class_II": 0.08876222346992019,
+ "p_fib_class_I": 0.5803878450050753,
+ "p_fib_class_II": 0.41961215499492466
+}
