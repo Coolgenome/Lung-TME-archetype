@@ -14,6 +14,7 @@
 5. Molecular profiles and immune-related cell-cell communications across different lesion stages and IMPACT archetypes.
 6. Tumor genomic alterations and their associations with spatial TME architectures.
 7. AI-based spatial decoding of lung TME architectures in histology images.
+8. Analysis of TCGA cohort by spatial decoding of histology images, survival analysis.
 
 <p align="center">
    <img width="600" height="460" alt="Study design" src="https://github.com/user-attachments/assets/83a07397-98b3-46af-b3f7-74c1a27a201d" />
