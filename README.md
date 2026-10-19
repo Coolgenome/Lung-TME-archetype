@@ -23,7 +23,7 @@
 We also provide the histo-IMPACT framework, which enables high-resolution prediction of lung lesion spatial architectures using H&E images.
 
 <p align="center">
-   <img width="600" height="550" alt="Artboard 1" src="https://github.com/user-attachments/assets/240bc805-8e56-45d6-b347-dd22d1273f37" />
+   <img width="500" height="450" alt="Artboard 1" src="https://github.com/user-attachments/assets/240bc805-8e56-45d6-b347-dd22d1273f37" />
 </p>
 
 This pipeline allows for identification of the tumor region, as well as detailed cell lineages (including tumor, non-tumor epithelium, and TME components). 
