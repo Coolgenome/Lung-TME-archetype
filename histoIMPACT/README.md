@@ -10,7 +10,7 @@ Please download the demo H&E image here: https://zenodo.org/records/23483997
 2. **Archetyping** (`impact_archetype.py`):
    - Five tissue layers relative to the tumor boundary: TR, IT, IN, NP, ND.
    - Major TME cell type signatures: CD4 T, CD8 T, B, macrophage, fibroblast.
-   - Spatial patterns of TIL / Mac / Fib
+   - Spatial pattern classes of TIL / Mac / Fib
    - IMPACT archetype prediction.
 
 ## Outputs
