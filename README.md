@@ -28,19 +28,10 @@ We also provide the histo-IMPACT framework, which enables high-resolution predic
 </p>
 
 This pipeline allows for identification of the tumor region, as well as detailed cell lineages (including tumor, non-tumor epithelium, and TME components). 
-We provided high-resolution H&E image for demo, which can be downloaded here: https://doi.org/10.5281/zenodo.23483997
-The results from demo run are included in ``` results_histoimpact/ ```.
+The detailed instructions for running the model are included inside the ``` histoIMPACT/ ``` folder.
+We provided a high-resolution H&E image for demo, which can be downloaded here: https://doi.org/10.5281/zenodo.23483997
+The results from demo run are included in ``` histoIMPACT/results_histoimpact/ ```.
 
-To run the pipeline:
-```bash
-cd ./histoIMPACT
-bash setup_env.sh # this creates a conda environment named histoimpact
-conda activate histoimpact
-
-cd ./code
-python run_histoimpact.py --image /path/to/image.tif --mpp 0.25 # set the image path and mpp here
-
-```
 
 ## Notes
 For any questions, please leave your comment in GitHub or contact Yibo Dai (ydai6@mdanderson.org). We will help address the issues as soon as possible.
