@@ -1,21 +1,11 @@
 """
-histoIMPACT spatial archetyping module: token-level model-1 predictions + UNI features
--> five tissue layers -> Visium-supervised signature maps -> Moran's I
-features -> IMPACT archetype.
-
-All functions are numpy/scipy only (no torch). Parameters are the frozen
-settings of the published model; change them only for sensitivity analyses.
+histoIMPACT spatial archetyping module
 
 Steps
-  1. build_superpixels   tokens -> 48 um super-pixels; tumor region cleanup;
-                         five layers by signed distance to the tumor border
-  2. signature_maps      UNI block embedding -> CD4_T / CD8_T / B / Mac / Fib
-                         maps (multi-task MLP, signature_model.npz)
-  3. moran_features      bivariate Moran's I of each map vs each layer on
-                         ~100 um pseudo-spots (25 features); 11 mm windows
-                         for slides larger than a Visium capture area
-  4. predict_impact      TIL / Mac / Fib classifiers (impact_classifier.json)
-                         + IMPACT rules -> 3-class call (IMPACT1a/2, 1b, 3)
+  1. build_superpixels   
+  2. signature_maps 
+  3. moran_features
+  4. predict_impact
 """
 
 from __future__ import annotations
