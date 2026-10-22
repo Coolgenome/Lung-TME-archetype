@@ -1,37 +1,6 @@
 """
-histoIMPACT end to end: H&E -> model 1 (cell lineage + tumor region) ->
-five tissue layers -> IMPACT archetype (3-class: IMPACT1a/2, IMPACT1b,
-IMPACT3).
-
-Per sample (out_root/<sample_id>/):
-  cell_lineage_grid.npy / cell_lineage_map.png   spatial tissue map (tokens)
-  tumor_region_grid.npy / tumor_region_map.png   token-level tumor calls
-  tissue_layers_token.npy / tissue_layers.png    5-layer segmentation
-  tissue_layers_superpixel.npy                   layers on the 48 um grid
-  signature_maps.npz (+ signature_maps.png)      CD4_T/CD8_T/B/Mac/Fib maps
-  features.json, impact.json                     Moran's I features, call
-Cohort: out_root/histoimpact_predictions.csv (one row per sample).
-
-Inputs
-  A. images (PNG / TIFF / JPEG, 40x preferred):
-       python run_histoimpact.py --image ../HE_demo/ADC1.png --mpp 0.25
-     Images at another resolution are resampled to 0.25 um/px first
-     (the models were trained at 0.25 um/px; 2x upsampling of 20x images
-     reproduced 40x predictions closely, native 20x tokens did not).
-  B. a manifest CSV with column sample_id and either
-       image [+ mpp]                       -> full pipeline, or
-       tokens + lineage_grid + tumor_grid [+ um_per_token]
-                                           -> archetyping only (re-use
-                                              existing UNI tokens and
-                                              model-1 grids, e.g. whole
-                                              slides processed elsewhere)
-       python run_histoimpact.py --manifest samples.csv
-
-Model files (default: ../model/):
-  general_uni_cls_cell_lineage.pt, general_uni_cls_tumor_region.pt (model 1)
-  signature_model.npz      Visium-supervised signature MLP (expr/model_mt.npz)
-  impact_classifier.json   compartment classifiers (final_model.json)
-UNI weights: ../UNI/pytorch_model.bin
+histoIMPACT end to end run: H&E -> spatial pathological feature prediction ->
+tissue layer segmentation -> IMPACT archetype predeiction (3-class: IMPACT1a/2, IMPACT1b, IMPACT3).
 """
 
 from __future__ import annotations
