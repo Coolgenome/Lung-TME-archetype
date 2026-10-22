@@ -21,7 +21,7 @@ Please download the demo H&E image here: https://zenodo.org/records/23483997
 | `tumor_region_grid.npy`, `tumor_region_map.png` | Tumor-region-associated tokens |
 | `tissue_layers_token.npy`, `tissue_layers.png` | Five-layer segmentation on the token grid |
 | `tissue_layers_superpixel.npy` | Tissue layer segmentation on the 48 µm super-pixel grid |
-| `signature_maps.npz` (+ `.png` with `--plot-maps`) | CD4_T, CD8_T, B, macrophage, fibroblast signature maps |
+| `signature_maps.npz` | CD4_T, CD8_T, B, macrophage, fibroblast signature maps |
 | `features.json` | Moran's I of major TME cell types |
 | `impact.json` | 3-class IMPACT prediction, TME spatial pattern classes |
 
